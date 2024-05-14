@@ -2,6 +2,7 @@
     margin: 0;
 }
 .container{
+    margin-top: -5px;
     width: 200px;
     height: 100vh;
     background: #4E6E81;
@@ -10,6 +11,7 @@
 
 .container p {
     padding: 15px;
+    
     
 }
 .container p:hover, button:hover{
@@ -21,12 +23,13 @@ p{
 }
 button{
     margin: 80px;
-    margin-top: 1px;
+    margin-top: 160px;
     padding: 9px;
     background: #FF0303;
     color: white;
     border: 9px;
     border-radius: 5px;
+
 }
 #close{
     color: #F9DBBB;
@@ -35,6 +38,21 @@ button{
     position: absolute;
     left: 125px; 
 }
+#menu{
+     color: #F9DBBB;
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    left: 125px; 
+}
+
 .hide{
-    display: none;                     /* wanneer op close wordt geklikt wordt de hele div verwijdert op browser. */
+    display: none;                                               /* wanneer op close wordt geklikt wordt de hele div verwijdert op browser. */                                                    
+}
+
+.logo{
+    width: 330px;
+    height: 210px;
+    padding-left: 1500px;
+    background-color: #F9DBBB ;
 }
