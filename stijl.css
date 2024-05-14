@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+.container{
+    width: 200px;
+    height: 100vh;
+    background: #4E6E81;
+    color: white;
+}
+
+.container p {
+    padding: 15px;
+    
+}
+.container p:hover, button:hover{
+    background: black;
+    cursor: pointer;
+}
+p{
+    font-size: 20px;
+}
+button{
+    margin: 80px;
+    margin-top: 1px;
+    padding: 9px;
+    background: #FF0303;
+    color: white;
+    border: 9px;
+    border-radius: 5px;
+}
+#close{
+    color: #F9DBBB;
+    font-size: 15px;
+    font-weight: 900;
+    position: absolute;
+    left: 125px; 
+}
+.hide{
+    display: none;                     /* wanneer op close wordt geklikt wordt de hele div verwijdert op browser. */
+}
