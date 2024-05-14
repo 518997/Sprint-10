@@ -56,3 +56,12 @@ button{
     padding-left: 1500px;
     background-color: #F9DBBB ;
 }
+
+/* Zoekbalk */
+#searchbar_got {
+   padding: 10px;
+   border-radius: 5px;
+   font-size: 15px;
+   background: #f8fafe;
+}
+  
