@@ -2,20 +2,20 @@
     margin: 0;
 }
 .container{
-    margin-top: -5px;
-    width: 200px;
-    height: 100vh;
+    margin-top: 5px;
+    width: 220px;
+    height: 61vh;
     background: #4E6E81;
     color: white;
 }
 
 .container p {
-    padding: 15px;
+    padding: 30px;
     
     
 }
 .container p:hover, button:hover{
-    background: black;
+    background: #2E3840;
     cursor: pointer;
 }
 p{
@@ -57,11 +57,3 @@ button{
     background-color: #F9DBBB ;
 }
 
-/* Zoekbalk */
-#searchbar_got {
-   padding: 10px;
-   border-radius: 5px;
-   font-size: 15px;
-   background: #f8fafe;
-}
-  
