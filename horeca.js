@@ -10,8 +10,8 @@ function goToReserveren() {
     window.location.href = 'reserveren.html';
 }
 
-function goToOverons() {
-    window.location.href = 'overons.html';
+function goToOver() {
+    window.location.href = 'over.html';
 }
 
 function goToContact() {
