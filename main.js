@@ -1,3 +1,27 @@
+function goToOnlyBowling() {
+    window.location.href = 'index.html';
+}
+
+function goToHoreca() {
+    window.location.href = 'horeca.html';
+}
+
+function goToReserveren() {
+    window.location.href = 'reserveren.html';
+}
+
+function goToOverons() {
+    window.location.href = 'overons.html';
+}
+
+function goToContact() {
+    window.location.href = 'contact.html';
+}
+
+function goToInloggen() {
+    window.location.href = 'inloggen.html';
+}
+ 
 function setupNavbar() {
     let btnMenu = document.getElementById('menu');
     let btnClose = document.getElementById('close');
