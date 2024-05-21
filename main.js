@@ -106,8 +106,8 @@ function createOnlyBowlingContent() {
         `
         &#8226 State-of-the-art bowlingbanen <br>
         &#8226 Gezellige sfeer voor vrienden en familie <br>
-        &#8226Heerlijk eten en drinken in ons restaurant <br>
-        &#8226Professionele begeleiding voor beginners 
+        &#8226 Heerlijk eten en drinken in ons restaurant <br>
+        &#8226 Professionele begeleiding voor beginners 
        `
     document.body.appendChild(p3);
     p3.style.color = 'black';
@@ -115,7 +115,6 @@ function createOnlyBowlingContent() {
     p3.style.top = '1790px'; 
     p3.style.left = '400px';
     p3.style.fontSize = '30px';
-    p3.style.lineHeight = '40px';
 
     var hoe = document.createElement('h1');
     hoe.innerHTML =
