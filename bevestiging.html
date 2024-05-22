@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stijl.css">
-    <link rel="stylesheet" href="reserveren.css">
     <title>OnlyBowling</title>
 </head>
 <body>
@@ -20,9 +19,23 @@
         <p id="contact" onclick="goToContact()">Contact</p>
         <p id="inloggen" onclick="goToInloggen()">Inloggen</p>
     </div>
-    
-        
+       
+       <main>
+        <p id="bevestiging-tekst"></p>
     </main>
-     <script src="reserveren.js"></script>
+    <script>
+        var p = document.getElementById('bevestiging-tekst');
+        p.innerHTML = `
+            <strong>Reservering Succesvol!</strong> <br><br>
+            Bedankt voor je reservering bij OnlyBowling. We kijken ernaar uit je te verwelkomen!
+        `;
+        p.style.color = 'black';
+        p.style.position = 'absolute';
+        p.style.top = '250px';
+        p.style.left = '300px';
+        p.style.fontSize = '30px';
+    </script>
+
+   
 </body>
 </html>
