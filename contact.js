@@ -18,10 +18,6 @@ function goToContact() {
     window.location.href = 'contact.html';
 }
 
-function goToInloggen() {
-    window.location.href = 'inloggen.html';
-}
- 
 function setupNavbar() {
     let btnMenu = document.getElementById('menu');
     let btnClose = document.getElementById('close');

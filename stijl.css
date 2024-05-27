@@ -4,7 +4,7 @@
 .container{
     margin-top: 5px;
     width: 220px;
-    height: 61vh;
+    height: 51vh;
     background: #4E6E81;
     color: white;
 }
@@ -56,4 +56,5 @@ button{
     padding-left: 1500px;
     background-color: #F9DBBB;
 }
+
 

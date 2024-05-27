@@ -17,10 +17,6 @@ function goToOver() {
 function goToContact() {
     window.location.href = 'contact.html';
 }
-
-function goToInloggen() {
-    window.location.href = 'inloggen.html';
-}
  
 function setupNavbar() {
     let btnMenu = document.getElementById('menu');
@@ -92,6 +88,22 @@ document.body.appendChild(p2);
     p2.style.left = '1300px';
     p2.style.fontSize = '30px';
     p2.style.lineHeight = '1.5';
+   
+var footer = document.createElement('footer');
+footer.innerHTML = 
+    `
+      <footer class="footer">
+        <h1>Contactgegevens</h1>
+    </footer>
+    `
+document.body.appendChild(footer);
+
+footer.style.marginTop = '800px';
+footer.style.width = '100%px';
+footer.style.height = '250px';
+footer.style.backgroundColor = '#F9DBBB';
+
+
 
 
     

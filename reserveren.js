@@ -18,10 +18,6 @@ function goToContact() {
     window.location.href = 'contact.html';
 }
 
-function goToInloggen() {
-    window.location.href = 'inloggen.html';
-}
- 
 function setupNavbar() {
     let btnMenu = document.getElementById('menu');
     let btnClose = document.getElementById('close');
@@ -142,6 +138,30 @@ function Bevestiging() {
     window.location.href = 'bevestiging.html';
 }
 
+    document.getElementById('reserveren_datum').addEventListener('change', function() {
+            const timeSelect = document.getElementById('time');
+            const selectedDate = new Date(this.value);
+            const day = selectedDate.getDay();
+
+            // Clear existing options
+            timeSelect.innerHTML = '';
+
+            // Define available times based on the day
+            let availableTimes;
+            if (day === 0 || day === 6) { // Sunday or Saturday
+                availableTimes = ['10:00', '12:00', '14:00', '16:00', '18:00'];
+            } else { // Weekdays
+                availableTimes = ['18:00', '19:00', '20:00', '21:00', '22:00'];
+            }
+
+            // Populate the time dropdown
+            availableTimes.forEach(time => {
+                const option = document.createElement('option');
+                option.value = time;
+                option.text = time;
+                timeSelect.appendChild(option);
+            });
+        });
 
 
 
