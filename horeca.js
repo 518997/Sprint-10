@@ -89,7 +89,7 @@ document.body.appendChild(p2);
     p2.style.fontSize = '30px';
     p2.style.lineHeight = '1.5';
    
-var footer = document.createElement('footer');
+/* var footer = document.createElement('footer');
 footer.innerHTML = 
     `
       <footer class="footer">
@@ -101,7 +101,7 @@ document.body.appendChild(footer);
 footer.style.marginTop = '800px';
 footer.style.width = '100%px';
 footer.style.height = '250px';
-footer.style.backgroundColor = '#F9DBBB';
+footer.style.backgroundColor = '#F9DBBB'; */
 
 
 
